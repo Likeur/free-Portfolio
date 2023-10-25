@@ -1,0 +1,13 @@
+{
+  "name": "portfolio1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tailwindcss -i css/input.css -o css/output.css -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

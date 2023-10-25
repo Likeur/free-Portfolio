@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="./css/output.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body class="dark:bg-gray-900 bg-gray-50">
+    <main>
+        <header class="flex justify-between items-center border-b shadow-sm">
+            <div class="p-2">
+                <h1 class="text-xl font-bold text-white bg-blue-600 p-1 px-3 shadow-md rounded-md">P.</h1>
+            </div>
+            <nav class="fixed bottom-0 w-full dark:bg-gray-900 border-t lg:border-none flex p-4 lg:p-2 lg:relative">
+                <ul class="flex justify-between w-full">
+                    <li class="ml-5"><a href="" class="flex flex-col text-blue-950 items-center dark:text-white">
+                        <i class='bx bx-home'></i>
+                        <span>Home</span>
+                    </a></li>
+                    <li class="ml-5"><a href="" class="flex flex-col text-blue-950 items-center dark:text-white">
+                        <i class='bx bx-info-circle' ></i>
+                        <span>About</span>
+                    </a></li>
+                    <li class="ml-5"><a href="" class="flex flex-col text-blue-950 items-center dark:text-white">
+                        <i class='bx bx-pyramid'></i>
+                        <span>Portfolio</span>
+                    </a></li>
+                    <li class="ml-5"><a href="" class="flex flex-col text-blue-950 items-center dark:text-white">
+                        <i class='bx bxs-contact'></i>
+                        <span>Contact</span>
+                    </a></li>
+
+                </ul>
+            </nav>
+            <div class="p-2">
+                <button id="dark-btn" class="bg-gray-900 shadow-md text-white p-2 w-7 h-7 flex justify-center items-center rounded-full dark:bg-white dark:text-black"><i id="toggle-dark" class='bx bx-moon' ></i></button>
+            </div>
+            
+        </header>
+        
+    </main>
+
+    <script>
+        const darkBtn = document.querySelector('#dark-btn')
+        const toggleDark = document.querySelector('#toggle-dark')
+        const moon = ''
+        darkBtn.addEventListener('click', ()=>{
+            document.documentElement.classList.toggle('dark')
+            if (document.documentElement.className == 'dark'){
+                toggleDark.className = 'bx bx-sun'
+            } else{
+                toggleDark.className = 'bx bx-moon'
+            }
+        })
+    </script>
+</body>
+</html>
