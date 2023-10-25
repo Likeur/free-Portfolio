@@ -7,38 +7,49 @@
     <link rel="stylesheet" href="./css/output.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
-<body class="dark:bg-gray-900 bg-gray-50">
+<body class="dark:bg-gray-900 bg-gray-100 duration-300">
     <main>
-        <header class="flex justify-between items-center border-b shadow-sm">
-            <div class="p-2">
+        <header class="flex z-50 bg-white dark:bg-gray-900 justify-between items-center border-b shadow-sm">
+            <div class="p-4">
                 <h1 class="text-xl font-bold text-white bg-blue-600 p-1 px-3 shadow-md rounded-md">P.</h1>
             </div>
-            <nav class="fixed bottom-0 w-full dark:bg-gray-900 border-t lg:border-none flex p-4 lg:p-2 lg:relative">
-                <ul class="flex justify-between w-full">
-                    <li class="ml-5"><a href="" class="flex flex-col text-blue-950 items-center dark:text-white">
-                        <i class='bx bx-home'></i>
+            <nav class="fixed bottom-0 w-full dark:bg-gray-900 border-t lg:border-none flex p-2 lg:p-2 lg:relative">
+                <ul class="flex justify-between lg:justify-center w-full">
+                    <li class=""><a href="" class="flex flex-col text-blue-950 items-center hover:bg-blue-600 hover:text-white hover:duration-200 rounded-md hover:shadow-md p-2 dark:text-white">
+                        <i class='bx bx-home text-xl'></i>
                         <span>Home</span>
                     </a></li>
-                    <li class="ml-5"><a href="" class="flex flex-col text-blue-950 items-center dark:text-white">
-                        <i class='bx bx-info-circle' ></i>
+                    <li class="ml-5"><a href="" class="flex flex-col text-blue-950 items-center hover:bg-blue-600 hover:text-white hover:duration-200 rounded-md hover:shadow-md p-2 dark:text-white">
+                        <i class='bx bx-info-circle text-xl' ></i>
                         <span>About</span>
                     </a></li>
-                    <li class="ml-5"><a href="" class="flex flex-col text-blue-950 items-center dark:text-white">
-                        <i class='bx bx-pyramid'></i>
+                    <li class="ml-5"><a href="" class="flex flex-col text-blue-950 items-center hover:bg-blue-600 hover:text-white hover:duration-200 rounded-md hover:shadow-md p-2 dark:text-white">
+                        <i class='bx bx-pyramid text-xl'></i>
                         <span>Portfolio</span>
                     </a></li>
-                    <li class="ml-5"><a href="" class="flex flex-col text-blue-950 items-center dark:text-white">
-                        <i class='bx bxs-contact'></i>
+                    <li class="ml-5"><a href="" class="flex flex-col text-blue-950 items-center hover:bg-blue-600 hover:text-white hover:duration-200 rounded-md hover:shadow-md p-2 dark:text-white">
+                        <i class='bx bxs-contact text-xl'></i>
                         <span>Contact</span>
                     </a></li>
 
                 </ul>
             </nav>
-            <div class="p-2">
-                <button id="dark-btn" class="bg-gray-900 shadow-md text-white p-2 w-7 h-7 flex justify-center items-center rounded-full dark:bg-white dark:text-black"><i id="toggle-dark" class='bx bx-moon' ></i></button>
+            <div class="p-4">
+                <button id="dark-btn" class="bg-gray-100 shadow-md border border-blue-600/30 text-blue-600 p-2 w-9 h-9 flex justify-center items-center rounded-full dark:bg-white dark:text-black"><i id="toggle-dark" class='bx bx-moon' ></i></button>
             </div>
             
         </header>
+
+        <section class="z-10">
+            <div class="flex justify-center items-center h-[70vh]">
+                <div class="flex flex-col justify-center items-center">
+                    <img src="https://images.pexels.com/photos/3938465/pexels-photo-3938465.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" class="w-32 h-32 object-cover ring-4 ring-blue-600 rounded-full">
+                    <h1 class="text-4xl lg:text-7xl font-bold text-blue-600 dark:text-white mt-5">Hello, I'm <span class="text-blue-600 dark:text-white">P. Doe</span></h1>
+                    <p class="text-xl text-blue-600 dark:text-white">I'm a Frontend web developer</p>
+                    <a href="" class="bg-blue-600 text-white p-2 inline-block mt-3 rounded-md shadow-md px-5 font-semibold">Contact me</a>
+                </div>
+            </div>
+        </section>
         
     </main>
 
