@@ -6,6 +6,8 @@
     <title>portfolio</title>
     <link rel="stylesheet" href="./css/output.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 <body class="dark:bg-gray-900 bg-gray-100 duration-300">
     <main>
@@ -67,7 +69,7 @@
             </div>
             <div>
                 <p class="text-center text-gray-400 mt-3">See what services i offer to my clients</p>
-                <div class="mt-5">
+                <div class="mt-5" data-aos="fade-right">
                     <div class="border p-6 flex flex-col text-gray-900 shadow-md rounded-md bg-white dark:bg-gray-950">
                         <i class='bx bxl-internet-explorer text-blue-600 text-6xl '></i>
                         <p class="dark:text-white font-bold mt-2 text-2xl">Web Developement</p>
@@ -91,6 +93,9 @@
                 toggleDark.className = 'bx bx-moon'
             }
         })
+
+        AOS.init();
     </script>
+
 </body>
 </html>
