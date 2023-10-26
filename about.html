@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="./css/output.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+<body class="dark:bg-gray-900 w-[100vw] bg-gray-100 duration-300 overflow-x-hidden overflow-y-scroll">
+    <main class="w-[100vw] overflow-x-hidden">
+        <header class="flex z-50 sticky top-0 w-full bg-white dark:bg-gray-900 justify-between items-center border-b shadow-sm">
+            <div class="p-4">
+                <h1 class="text-xl font-bold text-white bg-blue-600 p-1 px-3 shadow-md rounded-md">P.</h1>
+            </div>
+            <nav class="fixed bottom-0 z-50 w-full bg-white dark:bg-gray-900 border-t lg:border-none flex p-2 lg:p-2 lg:relative">
+                <ul class="flex justify-between lg:justify-center w-full">
+                    <li class=""><a href="./index.html" class="flex flex-col items-center hover:bg-blue-600 hover:text-white hover:duration-200 rounded-md hover:shadow-md p-2 dark:text-white">
+                        <i class='bx bx-home text-xl'></i>
+                        <span>Home</span>
+                    </a></li>
+                    <li class="ml-5"><a href="./about.html" class="flex flex-col bg-blue-600 shadow-md text-white items-center hover:bg-blue-600 hover:text-white hover:duration-200 rounded-md hover:shadow-md p-2 dark:text-white">
+                        <i class='bx bx-info-circle text-xl' ></i>
+                        <span>About</span>
+                    </a></li>
+                    <li class="ml-5"><a href="./portfolio.html" class="flex flex-col text-blue-950 items-center hover:bg-blue-600 hover:text-white hover:duration-200 rounded-md hover:shadow-md p-2 dark:text-white">
+                        <i class='bx bx-pyramid text-xl'></i>
+                        <span>Portfolio</span>
+                    </a></li>
+                    <li class="ml-5"><a href="./contact.html" class="flex flex-col text-blue-950 items-center hover:bg-blue-600 hover:text-white hover:duration-200 rounded-md hover:shadow-md p-2 dark:text-white">
+                        <i class='bx bxs-contact text-xl'></i>
+                        <span>Contact</span>
+                    </a></li>
+
+                </ul>
+            </nav>
+            <div class="p-4  mr-4">
+                <button id="dark-btn" class="bg-gray-100 shadow-md border border-blue-600/30 text-blue-600 p-2 w-9 h-9 flex justify-center items-center rounded-full dark:bg-white dark:text-black"><i id="toggle-dark" class='bx bx-moon' ></i></button>
+            </div>
+            
+        </header>
+
+        <section class="z-10  bg-white dark:bg-gray-800 p-4">
+            <div class="flex justify-center relative mt-4">
+                <p class="absolute text-5xl font-bold opacity-30 text-blue-600">Services</p>
+                <p class="mt-3 text-blue-600 text-2xl font-bold">Services</p>
+            </div>
+            <div>
+                <p class="text-center text-gray-400 mt-3">See what services i offer to my clients</p>
+                <div class="mt-8 flex flex-col lg:flex-row lg:justify-center lg:w-full" >
+                    <div  data-aos="fade-right" class="border p-6 flex flex-col text-gray-900 shadow-md rounded-md bg-white dark:bg-gray-950 lg:w-72 lg:ml-4">
+                        <i class='bx bxl-internet-explorer text-blue-600 text-6xl '></i>
+                        <p class="dark:text-white font-bold mt-2 text-2xl">Web Developement</p>
+                        <p class="text-justify mt-3 dark:text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus consequatur quod iste sapien</p>
+                    </div>
+                    <div  data-aos="fade-left" class="border p-6 mt-4 lg:mt-0 flex flex-col text-gray-900 shadow-md rounded-md bg-white dark:bg-gray-950 lg:w-72 lg:ml-4">
+                        <i class='bx bx-devices text-blue-600 text-6xl '></i>
+                        <p class="dark:text-white font-bold mt-2 text-2xl">Mobile Developement</p>
+                        <p class="text-justify mt-3 dark:text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus consequatur quod iste sapien</p>
+                    </div>
+
+                    <div  data-aos="fade-right" class="border p-6 mt-4 lg:mt-0 flex flex-col text-gray-900 shadow-md rounded-md bg-white dark:bg-gray-950 lg:w-72 lg:ml-4">
+                        <i class='bx bx-desktop text-blue-600 text-6xl '></i>
+                        <p class="dark:text-white font-bold mt-2 text-2xl">Desktop Developement</p>
+                        <p class="text-justify mt-3 dark:text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus consequatur quod iste sapien</p>
+                    </div>
+                </div>
+                <div class="mt-5 flex flex-col lg:flex-row lg:justify-center lg:w-full" >
+                    <div  data-aos="fade-right" class="border p-6 flex flex-col text-gray-900 shadow-md rounded-md bg-white dark:bg-gray-950 lg:w-72 lg:ml-4">
+                        <i class='bx bxl-internet-explorer text-blue-600 text-6xl '></i>
+                        <p class="dark:text-white font-bold mt-2 text-2xl">Web Developement</p>
+                        <p class="text-justify mt-3 dark:text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus consequatur quod iste sapiente </p>
+                    </div>
+                    
+                    <div  data-aos="fade-left" class="border p-6 mt-4 lg:mt-0 flex flex-col text-gray-900 shadow-md rounded-md bg-white dark:bg-gray-950 lg:w-72 lg:ml-4">
+                        <i class='bx bxl-figma text-blue-600 text-6xl '></i>
+                        <p class="dark:text-white font-bold mt-2 text-2xl">UI/UX designer</p>
+                        <p class="text-justify mt-3 dark:text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus consequatur quod iste sapiente </p>
+                    </div>
+                    <div  data-aos="fade-right" class="border p-6 mt-4 lg:mt-0 flex flex-col text-gray-900 shadow-md rounded-md bg-white dark:bg-gray-950 lg:w-72 lg:ml-4">
+                        <i class='bx bx-line-chart text-blue-600 text-6xl '></i>
+                        <p class="dark:text-white font-bold mt-2 text-2xl">Data Analyst</p>
+                        <p class="text-justify mt-3 dark:text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus consequatur quod iste sapiente </p>
+                    </div>
+                </div>
+                
+               
+            </div>
+        </section>
+        
+    </main>
+
+    <script>
+        const darkBtn = document.querySelector('#dark-btn')
+        const toggleDark = document.querySelector('#toggle-dark')
+        const moon = ''
+        darkBtn.addEventListener('click', ()=>{
+            document.documentElement.classList.toggle('dark')
+            if (document.documentElement.className == 'dark'){
+                toggleDark.className = 'bx bx-sun'
+            } else{
+                toggleDark.className = 'bx bx-moon'
+            }
+        })
+
+        AOS.init();
+    </script>
+
+</body>
+</html>
